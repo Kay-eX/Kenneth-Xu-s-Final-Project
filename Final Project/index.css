@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+nav#mainLinks ul li {
+	background-color: #FF0000;	
+	display: block;
+	float: left;
+	text-align: center;
+	width: 25%;	
+}
+
+nav#mainLinks ul li a {
+	color: white;	
+	display: block;
+	height: 2.5em;	
+	text-align: center;
+	line-height: 2.5em;	
+}
+
+body {
+	background-image: url(backgroundimage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+	text-shadow: 2px 2px #000000;
+	font-family: Impact;
+	color: #FF0000;
+	font-size: 50px;
+	padding: 50px;
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+	text-align: left;
+}
+
+.text2 {
+	text-shadow: 2px 2px #000000;
+	color: #f2f2f2;
+	font-size: 20px;
+	padding: 20px;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	text-align: left;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  margin: 0 2px;
+  background-color: #f55d5d;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #FF0000;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+h1.HomePage {
+	text-shadow: 5px 5px #2776EA;
+	font-family: Impact;
+	font-size:100px;
+	color: #FF0000;
+}
+
+a.GS {
+	text-shadow: 2px 2px #00FFFF;
+	font-family: Impact;
+	font-size:50px;
+	color: #2776EA;
+}
+
+h1.AboutUs {
+	text-shadow: 2px 2px #2776EA;
+	font-family: Impact;
+	font-size:50px;
+	color: red;
+}
+
+p.aboutustext {
+	text-shadow: 2px 2px #000000;
+	font-family: Ariel;
+	font-size:40px;
+	color: white;
+	background-color: #242526;
+	border:10px;
+	border-style:double;
+	border-color:red;
+}
+
+.HPimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 50%;
+	height: 50%;
+	box-shadow: 0 4px 8px 0 #ff0000, 0 6px 20px 0 #ff0000;
+	border: 0;
+}
+
+.HPimage:hover {
+    transform: scale(1.2);
+	box-shadow: 0 8px 16px 0 #2776EA, 0 12px 40px 0 #2776EA;
+}
+
+
+.TRimage {
+	border:20px;
+	border-style:inset;
+	border-color:red;
+    display: block;
+	float: right;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width:400px;
+	height:600px;
+}
+
+.GFimage {
+	border:20px;
+	border-style:inset;
+	border-color:red;
+    display: block;
+	float: left;
+	margin-top: 10px;
+	margin-left: 80px;
+	margin-right: 80px;
+	width:300px;
+	height:400px;
+}
+
+
+
+h1.GFtext {
+	color:white;
+	font-size: 70px;
+}
+
+p.GFtext {
+	color:white;
+	font-size: 30px;
+}

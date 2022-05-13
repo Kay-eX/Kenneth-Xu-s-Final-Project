@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Midterm Project</title>
+   <meta charset="utf-8" />
+   <meta name="viewport"
+   content="width=device-width, initial-scale=1" />
+   <link href="index.css" rel="stylesheet" />
+</head>
+
+<body>
+	<header>
+		<nav id="mainLinks">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+			<li><a href="#">Location</a></li>
+         </ul>
+		</nav>
+	</header>
+	<br>
+	<h1 class="AboutUs">
+	<center>About Us</center>
+	</h1>
+	<img class="AUimage" src="AboutUsImage.jpg" alt="" />
+	<p class="aboutustext">Abominación Mexican Cuisine Restaurant is a family-owned business founded 
+	in 2011. We are dedicated to preparing Mexican-style food for you to enjoy. We specialize in our
+	breakfasts and our tacos.
+	<br><br>
+	Our ingredients come straight from locally-managed farms. This ensures that the ingredients come 
+	fresh and the food we prepare will taste fantastic.
+	<br><br>
+	We have no professional cooks or chefs. We slap the ingredients together haphazardly to ensure a 
+	welcoming homemade appeal.
+	<br><br>
+	Invite your friends or family and visit Abominación, the Mexican Cuisine Restaurant, today! Delivery 
+	is available from 12 A.M. to 8 P.M. Take-out is available for as long as we're open. You may or may 
+	not regret coming here, that's the mystery!
+	<br><br>
+	<br><br>
+	<br><br><br>
+	</p>
+</body>
+</html>

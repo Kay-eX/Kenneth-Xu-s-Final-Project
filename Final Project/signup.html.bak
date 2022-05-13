@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Midterm Project</title>
+   <meta charset="utf-8" />
+   <meta name="viewport"
+   content="width=device-width, initial-scale=1" />
+   <link href="reservation.css" rel="stylesheet" />
+</head>
+
+<body>
+   <header>
+		<nav id="mainLinks">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+			<li><a href="#">Location</a></li>
+         </ul>
+		</nav>
+   </header>
+   
+<h1 class="RFtitle"><center>Reservation Form</center></h1>
+<form class="ReservationForm">
+<center>
+<label for="Rtime">Time: </label>
+<input type="time" id="Rtime" name="Rtime" required><br>
+<label for="RTableNo">Table Number: </label>
+<input type="number" id="RTableNo" name="RTableNo" min="1" max="5" required><br>
+<label for="Rname">Your Name: </label>
+<input type="text" id="Rname" name="Rname" required><br>
+<label for="RGroupNo">Number in Group: </label>
+<input type="number" id="RGroupNo" name="RGroupNo" min="1" max="6" required><br>
+<label for="Rphone">Phone Number: </label><small>(Format: xxx-xxx-xxxx)</small>
+<input type="tel" id="Rphone" name="Rphone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</center>
+</form>
+<br>
+<center>
+<h2>
+Active Reservations
+</h2>
+<table>
+  <tr>
+    <th>Time</th>
+    <th>Table Number</th>
+    <th>Name</th>
+	<th>Number of People</th>
+	<th>Phone Number</th>
+  </tr>
+  <tr>
+    <td>2:30</td>
+	<td>3</td>
+	<td>Steve Steveson</td>
+    <td>5</td>
+    <td>341-151-3154</td>
+  </tr>
+  <tr>
+    <td>3:30</td>
+	<td>2</td>
+	<td>John Johnson</td>
+    <td>3</td>
+    <td>312-135-1354</td>
+  </tr>
+</table>
+</center>
+<br>
+<img class="RList" src="Restaurant_Reservation_List.png" alt="" />
+</body>
+</html>
