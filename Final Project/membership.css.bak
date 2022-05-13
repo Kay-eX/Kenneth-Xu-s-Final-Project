@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+nav#mainLinks ul li {
+	background-color: #FF0000;	
+	display: block;
+	float: left;
+	text-align: center;
+	width: 25%;	
+}
+
+nav#mainLinks ul li a {
+	color: white;	
+	display: block;
+	height: 2.5em;	
+	text-align: center;
+	line-height: 2.5em;	
+}
+
+body {
+	background-image: url(backgroundimage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.RList {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1.RFtitle,h2 {
+	color: white;
+	background-color: #242526;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+form.gform {
+	font-size: 25px;
+	color: white;
+	background-color: #242526;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+table,th,td {
+	color: black;
+	background-color: white;
+	border:1px solid black;
+	border-color:green;
+	width: 50%;
+}
+
+th,td {
+	width: 20px;
+	height: 70px;
+}
